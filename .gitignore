@@ -1,0 +1,49 @@
+# ─── Binaries ────────────────────────────────────────────────────────────────
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build output
+/bin/
+/dist/
+*.out
+
+# Air (live-reload) binary & temp files
+tmp/
+air.log
+
+# ─── Environment & Secrets ───────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─── Database ────────────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ─── OS ──────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Editors ─────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── Logs ────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── Go test & coverage ──────────────────────────────────────────────────────
+*.test
+*.prof
+coverage.out
+coverage.html
+
+# ─── Vendor (only if you don't commit vendor/) ───────────────────────────────
+# vendor/

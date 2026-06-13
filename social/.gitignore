@@ -1,0 +1,8 @@
+.DS_Store
+.envrc
+*.log
+*.bin
+/docs/swagger.json
+/docs/swagger.yaml
+/docs/docs.go
+/bin
